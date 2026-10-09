@@ -33,18 +33,22 @@ By using this tool, you'll get hands-on experience with:
 ---
 
 ## 📁 What's Inside This Project
+
+```text
 Basic_Network_Sniffer/
 ├── network_sniffer/
-│ ├── sniffer.py → Run this file to start capturing
-│ └── packet_handler.py → Handles reading/decoding each packet
+│   ├── sniffer.py              → Run this file to start capturing packets
+│   └── packet_handler.py       → Reads, decodes, and processes each packet
 ├── scratch/
-│ └── test_packet_handler.py → Checks everything works (no admin needed)
-├── requirements.txt → List of things to install (just 2 packages)
-└── README.md → You're reading it!
+│   └── test_packet_handler.py  → Tests packet handling without admin privileges
+├── requirements.txt            → Lists the two required Python packages
+└── README.md                   → Project documentation
+```
 
-> 💡 You might see a `__pycache__` folder appear after running the script — that's just Python's auto-generated cache. Totally normal, safe to ignore or delete.
+> 💡 **Note:** A `__pycache__/` folder may appear after running the scripts. Python generates this folder automatically to store compiled bytecode. It is normal, safe to ignore, and can be deleted if needed.
 
 ---
+
 
 ## 🚀 Getting Started
 
